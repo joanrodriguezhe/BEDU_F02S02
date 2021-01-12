@@ -1,3 +1,5 @@
+//if/else
+
 let time = 34;
 let greeting;
 if (time < 0 || time >= 24 || typeof time == "number") {
@@ -12,6 +14,7 @@ if (time < 0 || time >= 24 || typeof time == "number") {
 
 console.log(greeting);
 
+//switch
 let day = 5;
 let msg;
 
@@ -41,4 +44,9 @@ switch (day) {
         msg = "Error";
 }
 
-console.log(msg)
+console.log(msg);
+
+//Ternary
+let speed = 90;
+
+console.log((speed > 100) ? "You're going too fast!" : "Under the limit");
