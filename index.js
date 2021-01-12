@@ -50,3 +50,15 @@ console.log(msg);
 let speed = 90;
 
 console.log((speed > 100) ? "You're going too fast!" : "Under the limit");
+
+//For/While
+for (let i = 0; i < 200; i++) {
+    console.log('HelloWorld');
+}
+
+let i = 0;
+while (i < 200) {
+    console.log('HelloWorld');
+    i++;
+}
+
