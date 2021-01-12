@@ -67,3 +67,13 @@ while (i < 200) {
 for (let i = 0; i <= 100; i++) {
     if (i % 2 === 0) console.log(i);
 }
+
+//Reto 3
+
+for (let i = 1; i <= 100; i++) {
+    let countDiv = 0;
+    for (let j = 1; j <= i; j++) {
+        if (i % j === 0) countDiv++;
+    }
+    if (countDiv === 2) console.log(i);
+}
