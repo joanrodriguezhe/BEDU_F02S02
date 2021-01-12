@@ -62,3 +62,8 @@ while (i < 200) {
     i++;
 }
 
+//Reto 2
+
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 === 0) console.log(i);
+}
